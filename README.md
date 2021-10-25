@@ -15,3 +15,17 @@ TIP: use ```git commit -am``` to combine adding and commiting in one simple comm
 
 3. commit history local -> remote repo
 git push // this pushes to the remote repo
+
+
+## FAQ
+
+
+
+## FAQ
+
+1. What's one way to delete an element from an array?
+
+2. How can you make a code snippet in markdown?
+``` 
+adsfadsf 
+```

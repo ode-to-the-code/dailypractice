@@ -6,30 +6,58 @@
 //           0  1  2  3  4
 // output array= [4,0,1,1,3]
 
-const arr = [1, 2, 3, 4];
-const arr1 = arr;
-const arr2 = [...arr]; // this is the ES6 way of cloning an array 
-console.log(arr === arr1); // this one is true, bc they're pointing to the same memory space 
-console.log(arr === arr2); // but this one will return false, bc they're pointing to different places in the memory
+// const arr = [1, 2, 3, 4];
+// const arr1 = arr;
+// const arr2 = [...arr]; // this is the ES6 way of cloning an array 
+// console.log(arr === arr1); // this one is true, bc they're pointing to the same memory space 
+// console.log(arr === arr2); // but this one will return false, bc they're pointing to different places in the memory
 
 
 
 // hw finish functions quiz in 
+
+nums=[8,1,2,2,3] 
+
+// return an array that mirrors the input array, but shows 
+// how many numbers are smaller than each number. 
+// input nums=[8,1,2,2,3] 
+// sorted = [1, 2, 2, 3, 8]
+//           0  1  2  3  4
+// output array= [4,0,1,1,3]
+
 
 const smallerNumbersThanCurrent = (nums) => {
     // step 1: clone the array and sort the cloned array 
     let sorted = [...nums];
     sorted.sort(function(a, b) { return a - b});
 
+    console.log('sorted', sorted)
     // step 2: map the number to output, which will be the indexes 
     let dict = {};
 
-    for (var i = 0; i < sorted.length)
+    // for (var i = 0; i < sorted.length; i++) {
+    //     dict[i] = sorted[i] 
+    // }
 
+
+    for (var i = 0; i < sorted.length; i++) {
+        if (dict[i]) {
+           dict[i]  
+        } else {
+            dict[i] = sorted[i]
+        }
+    }
+
+
+    
+
+    console.log("dict", dict)
+    console.log("Object.keys", Object.keys(dict))
 
 
 }
 
+console.log(smallerNumbersThanCurrent(nums))
 
 // // nums = [1, 3, 2]
 // const jadSort = (nums) => {
