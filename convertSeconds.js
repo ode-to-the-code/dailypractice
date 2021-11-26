@@ -16,14 +16,12 @@ function convertSeconds(givenSeconds) {
     let hours = Math.floor(minutes / 60); 
     let days = Math.floor(hours / 24);
     let leftOverHours = hours % 24
-    return (`${days} days, ` + `${leftOverHours} hours, ` + `${leftOverMinutes} minutes, ` + `${leftOverSeconds} seconds`)
+    let leftOverDays = days % 30
+    let months = Math.floor(days / 30);
+
+    return (`${months} months, ` + `${leftOverDays} days, ` + `${leftOverHours} hours, ` + `${leftOverMinutes} minutes, ` + `${leftOverSeconds} seconds`)
 }
 
 
-function convertSeconds(givenSeconds) {
-    let leftOverSeconds = givenSeconds % 60;
-    let minutes = Math.floor(givenSeconds / 60);
 
-}
-
-console.log("testing 800000: " + convertSeconds(800000));
+console.log("testing 800000: " + convertSeconds(80000000000));

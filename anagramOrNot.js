@@ -1,6 +1,6 @@
 
 
-// 2. given two strings, a way to decide if one is a permutation of the other. Like 'cat' and 'act'. a dictionary can do this 
+
 //  input - two strings 
 //  output - boolean, true or false 
 
