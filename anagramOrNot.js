@@ -1,11 +1,7 @@
 
 
 
-//  input - two strings 
-//  output - boolean, true or false 
 
-// how can i use a dictionary for this?
-//  could make a dictionary 
 let tag = "tag"
 let gat = "gat"
 
@@ -40,18 +36,13 @@ const anagramOrNot = (string1, string2) => {
     }
 
 
-// ["c","t", "a"]
-    const dict1keys = Object.keys(dict1);
-    // const dict2keys = Object.keys(dict2);
 
+    const dict1keys = Object.keys(dict1);
     for (let key of dict1keys) {
         if (dict1[key] !== dict2[key]) {
             return false;
         }
     }
-
-    // maybe i can iterate over both of them and fill up the 
-    //  dictionary. then compare the two?
 
     return true;
 }

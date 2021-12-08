@@ -6,16 +6,30 @@ This is a way to keep track of practice problems I do in Javascript, as well as 
 
 ## LATEST REVIEW GOALS:
 
-11/24
 -priorities are 
     -solving problems, programming logic stuff
     -finishing codeacademy 
     -blockchain readme 
 
--do integerAndRange
+
+12/8
+-pick 4 days to do about 10% per day of codeacademy (from 58% currently), to be on track to finish the basic level by next Wednesday the 15th. 
+    -can add a few minutes of "housekeeping" cleaning up/organizing the files 
+    -just focus on knocking out the CA course
+    -times in phone alarms
+
+
+
+tips:
+-find a homey environment to work in 
+
+11/24
+
+-do integerAndRange- done
 -aim for 75% CA completion by monday
 -keep working on blockchain, savjee sec1 and 2 by Monday 
 
+also done- edabit 75 exp, one tough problem 
 
 11/22
 -go though and clean up the file tree, make it more presentable and organized
@@ -37,10 +51,11 @@ local storage -> staging area -> commit history ----->>>> remote repo
 2. staging area -> commit history
 ```git commit -m # creating a commit```
 
-TIP: use ```git commit -am``` to combine adding and commiting in one simple command. 
+TIP: use ```git commit -am``` to combine adding and committing in one simple command. But unlike using ".add" and then "commit -m",  this will only add modified files, not new files. 
 
 3. commit history local -> remote repo
 git push // this pushes to the remote repo
+
 
 
 
