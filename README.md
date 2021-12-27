@@ -6,13 +6,25 @@ This is a way to keep track of practice problems I do in Javascript, as well as 
 
 ## LATEST REVIEW GOALS:
 
+
 -priorities are 
     -solving problems, programming logic stuff
     -finishing codeacademy 
     -blockchain readme 
 
 
+12/22
+-check out clean code (book)
+
+12/20
+-solve sumAndExcludePrimes in array problems section
+-work on codeacademy 
+-git commit 
+
 12/8
+*i should try doing lots of small variations on the same problem. Like when I get a practice problem, ask for 5-10 different versions of the same concept for homework, like 5 nested loop problems. like this one-
+https://www.freecodecamp.org/news/nesting-for-loops-in-javascript/
+
 -pick 4 days to do about 10% per day of codeacademy (from 58% currently), to be on track to finish the basic level by next Wednesday the 15th. 
     -can add a few minutes of "housekeeping" cleaning up/organizing the files 
     -just focus on knocking out the CA course
@@ -85,4 +97,11 @@ It uses a dictionary
 
 
 
-## NOTES AND REFLECTIONS 
+## PROBLEM NOTES AND REFLECTIONS 
+
+12/27
+-isEveryCharacterUnique
+-refreshed on dictionaries/hash tables 
+-double for loop to check for uniqueness 
+-troubleshooting- broke on the second loop (a false positive )
+-(time complexity, space complexity, and Big O) the two functions differ by the type of complexity they optimize for. The solution with the two for loops doesn't use memory, but is very expensive in terms of time; it is high in time complexity. The first solution, with the dictionary, is much more efficient in terms of time because it doesn't have to iterate over every character by the total numbers of characters like in the for loops solution. 

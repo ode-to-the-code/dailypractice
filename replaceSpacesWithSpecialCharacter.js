@@ -3,6 +3,7 @@
 // replace any space with a %20
 // if we had a string input of "Mr. John Smith", replace each of those 
 // two spaces with %20, for an output of "Mr.%20John%20Smith". 
+
 const replaceSpacesWithSpecialCharacter = (givenString) => {
     let result = ""
     for (var i = 0; i < givenString.length; i++) {
